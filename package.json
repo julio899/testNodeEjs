@@ -6,7 +6,8 @@
   "scripts": {
     "tsc": "tsc",
     "start": "node build/index.js",
-    "dev": "nodemon build/index.js"
+    "dev": "nodemon build/index.js",
+    "prod": "tsc && nodemon build/index.js"
   },
   "keywords": [],
   "author": "Julio Vinachi",
