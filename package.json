@@ -1,0 +1,25 @@
+{
+  "name": "testNodeEjs",
+  "version": "1.0.0",
+  "description": "test simple of render with EJS and node",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc",
+    "start": "node build/index.js",
+    "dev": "nodemon build/index.js"
+  },
+  "keywords": [],
+  "author": "Julio Vinachi",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^12.6.8",
+    "@types/webpack-env": "^1.14.0",
+    "nodemon": "^1.19.1"
+  },
+  "dependencies": {
+    "@types/express": "^4.17.0",
+    "ejs": "^2.6.2",
+    "express": "^4.17.1",
+    "typescript": "^3.5.3"
+  }
+}
