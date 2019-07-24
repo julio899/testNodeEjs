@@ -7,7 +7,8 @@ console.log('* url views: '+ urlBaseViews);
 
 // Routes
 routes.get('/',(req:any,res:any)=>{
-	res.sendFile( urlBaseViews + 'home.html');
+	// res.sendFile( urlBaseViews + 'home.html');
+	res.render(urlBaseViews + 'home.html',{title:'any case'});
 });
 
 export default routes;

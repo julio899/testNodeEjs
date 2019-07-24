@@ -6,6 +6,9 @@ const app = express();
 
 // Settings and Config
 app.set("port", 3000);
+app.set("views", pathF.join(__dirname, "").replace("build", "src/views/") );
+app.engine('html',require('ejs').renderFile );
+app.set("view engine", 'ejs');
 //console.log(path.join(__dirname, "public").replace("build/", "src/"));
 // Public
 app.use(
